@@ -1,0 +1,32 @@
+{{ name }}
+{{ job_title }}
+
+{{ country }} • {{ email }} • {{ phone }} • {{ linkedin }}
+
+PROFESSIONAL SUMMARY
+{{ professional_summary }}
+
+CORE SKILLS & EXPERTISE
+{% for skill in skills %}
+- {{ skill }}
+{% endfor %}
+
+PROFESSIONAL EXPERIENCE
+{% for job in experience %}
+{{ job.title }}
+{{ job.company }} ({{ job.location }}) | {{ job.dates }}
+{% for point in job.description %}
+- {{ point }}
+{% endfor %}
+{% endfor %}
+
+EDUCATION
+{% for degree in education %}
+- {{ degree }}
+{% endfor %}
+
+PERSONAL INTERESTS
+{% for interest in personal_interests %}
+- {{ interest }}
+{% endfor %}
+ 

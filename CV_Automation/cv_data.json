@@ -1,0 +1,30 @@
+{
+    "name": "Alice Johnson",
+    "job_title": "Data Scientist",
+    "country": "USA",
+    "email": "alice@example.com",
+    "phone": "+1 987 654 3210",
+    "linkedin": "linkedin.com/in/alicejohnson",
+    "professional_summary": "Passionate about AI and data-driven solutions.",
+    "skills": ["Python", "TensorFlow", "Big Data", "SQL", "Machine Learning"],
+    "experience": [
+        {
+            "title": "Machine Learning Engineer",
+            "company": "AI Labs",
+            "location": "San Francisco",
+            "dates": "2021 - Present",
+            "description": [
+                "Built ML models that improved data processing by 30%.",
+                "Developed end-to-end machine learning pipelines."
+            ]
+        }
+    ],
+    "education": [
+        "M.Sc. in Artificial Intelligence - Stanford (2018 - 2020)",
+        "B.Sc. in Computer Science - MIT (2014 - 2018)"
+    ],
+    "personal_interests": [
+        "Deep Learning Research",
+        "Traveling"
+    ]
+}
